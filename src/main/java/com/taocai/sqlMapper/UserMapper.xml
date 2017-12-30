@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+ <!-- 这里写接口? -->
+<mapper namespace="com.taocai.dao.UserDao">
+<!-- 查询全部数据   -->
+<select id="findAll" resultType="map">
+select * from sys_user
+</select>
+</mapper>
